@@ -11,7 +11,8 @@ function ContactCard(contact) {
                 <h3>{contact.title}</h3>
                 <Icon icon={contact.icon}></Icon>
             </div>
-        </a >);
+        </a>
+    );
 }
 
 function Contact() {
@@ -24,12 +25,12 @@ function Contact() {
         {
             title: "e-mail",
             icon: siProtonmail,
-            url: "https://discord.dog/n0op3"
+            url: "mailto:n0op3@proton.me"
         },
         {
             title: "GitHub",
             icon: siGithub,
-            url: "https://discord.dog/n0op3"
+            url: "https://github.com/n0op3"
         }
     ];
     return (
