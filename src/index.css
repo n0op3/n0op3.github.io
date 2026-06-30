@@ -52,6 +52,11 @@ body {
     line-height: 1.5;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
 html,
 body {
     margin: 0;
