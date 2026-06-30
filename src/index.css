@@ -134,3 +134,9 @@ a {
     background-clip: text;
     color: transparent;
 }
+
+h1 {
+    background-image: linear-gradient(var(--color-text), var(--color-text-muted));
+    background-clip: text;
+    color: transparent;
+}
