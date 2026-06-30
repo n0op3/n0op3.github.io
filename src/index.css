@@ -22,7 +22,7 @@
     --color-text: #e4e4e7;
     --color-text-muted: #a1a1aa;
     --color-primary: #f44430;
-    --color-secondary: #db734a;
+    --color-secondary: #f98354;
     --color-border: #685d5c;
 
     --radius: 8px;
@@ -64,4 +64,16 @@ body {
 a {
     text-decoration: none;
     color: var(--color-text);
+}
+
+.a--bg {
+    background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
+    border-radius: var(--radius);
+    padding: 2px;
+}
+
+.a--fg {
+    background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
+    background-clip: text;
+    color: transparent;
 }
