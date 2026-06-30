@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <HashRouter>
                     <Route path="/" component={Home} />
                     <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} />
                 </HashRouter>
             </main>
             <footer ><Footer /></footer>

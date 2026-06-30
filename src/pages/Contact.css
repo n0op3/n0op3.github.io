@@ -1,0 +1,16 @@
+.card {
+    border: 2px solid var(--color-text);
+    padding: var(--space-4);
+    padding-top: var(--space-1);
+    padding-bottom: var(--space-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-4);
+    border-radius: var(--radius);
+    margin-top: var(--space-4);
+}
+
+.card:hover {
+    background-color: var(--color-primary);
+}
