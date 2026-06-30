@@ -19,7 +19,10 @@
 
 .hero__avatar {
     border-radius: 100%;
-    max-width: var(--image-size);
+    min-width: var(--image-size);
+    width: var(--image-size);
+    min-height: var(--image-size);
+    height: var(--image-size);
     border: 2px solid var(--color-border);
 }
 
@@ -40,20 +43,6 @@
     display: flex;
     gap: var(--space-3);
     margin-top: var(--space-1);
-}
-
-.hero__links {
-    display: flex;
-    gap: var(--space-3);
-    margin-top: var(--space-2);
-}
-
-.hero__links a {
-    color: var(--color-text-muted)
-}
-
-.hero__links a :hover {
-    color: var(--color-text)
 }
 
 .btn--ghost {
