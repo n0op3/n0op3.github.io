@@ -1,10 +1,10 @@
 import { For } from "solid-js";
 
-import './Projects.css'
+import styles from './Projects.module.css';
 
 function ProjectCard(project) {
     return (
-        <a href={project.url} target="_blank" class="card">
+        <a href={project.url} target="_blank" class={styles.card}>
             <div>
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>

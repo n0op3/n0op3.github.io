@@ -2,12 +2,12 @@ import { For } from "solid-js";
 import Icon from "../utils/Icons";
 import { siDiscord, siGithub, siProtonmail } from "simple-icons";
 
-import './Contact.css'
+import styles from './Contact.module.css';
 
 function ContactCard(contact) {
     return (
         <a href={contact.url} target="_blank">
-            <div class="card">
+            <div class={styles.card}>
                 <h3>{contact.title}</h3>
                 <Icon icon={contact.icon}></Icon>
             </div>
