@@ -10,8 +10,8 @@ function Hero() {
                 I'm a self-taught software developer with nearly a decade of experience.
             </p>
             <div class="hero__actions">
-                <button class="btn btn--primary">My projects</button>
-                <button class="btn btn--ghost">More about me</button>
+                <button class="btn btn--primary"><a href="/projects">My projects</a></button>
+                <button class="btn btn--ghost"><a href="/about">More about me</a></button>
             </div>
         </section>
     );
