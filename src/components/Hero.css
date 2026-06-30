@@ -10,11 +10,17 @@
 }
 
 .hero__eyebrow {
-    color: var(--color-primary);
-    font-size: var(--text-sm);
+    color: var(--color-secondary);
+    font-size: var(--text-base);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+.hero__avatar {
+    border-radius: 100%;
+    max-width: var(--image-size);
+    border: 2px solid var(--color-border);
 }
 
 .hero__headline {

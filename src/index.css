@@ -21,12 +21,13 @@
     --color-surface: #18181b;
     --color-text: #e4e4e7;
     --color-text-muted: #a1a1aa;
-    --color-primary: #db734a;
-    --color-secondary: #f44430;
+    --color-primary: #f44430;
+    --color-secondary: #db734a;
     --color-border: #685d5c;
 
     --radius: 8px;
     --container-width: 1100px;
+    --image-size: 30%;
 }
 
 body {
