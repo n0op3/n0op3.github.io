@@ -19,4 +19,5 @@
 
 .card:hover {
     background-color: var(--color-primary);
+    background-image: unset;
 }
