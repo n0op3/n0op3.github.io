@@ -1,0 +1,26 @@
+.card {
+    border: 2px solid transparent;
+    background-image:
+        linear-gradient(var(--color-bg), var(--color-bg)),
+        linear-gradient(to top right, var(--color-border), var(--color-text-muted));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-image-slice: 1;
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    padding-top: var(--space-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.card:hover {
+    background-color: var(--color-primary);
+}
+
+.card img {
+    max-width: 100%;
+}
