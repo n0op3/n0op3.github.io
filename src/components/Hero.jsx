@@ -5,7 +5,7 @@ function Hero() {
         <section class="hero">
             <p class="hero__eyebrow">こんいちは！</p>
             <img class="hero__avatar" src="https://avatars.githubusercontent.com/u/167058949" />
-            <h1 class="hero__headline">My name is <a class="a--fg">n0op3</a></h1>
+            <h1 class="hero__headline">My name is <a class="gradient--fg">n0op3</a></h1>
             <p class="hero__subheadline">
                 I'm a self-taught software developer with nearly a decade of experience.
             </p>

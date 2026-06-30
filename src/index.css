@@ -112,13 +112,13 @@ a {
     color: var(--color-text);
 }
 
-.a--bg {
+.gradient--bg {
     background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
     border-radius: var(--radius);
     padding: 2px;
 }
 
-.a--fg {
+.gradient--fg {
     background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
     background-clip: text;
     color: transparent;
