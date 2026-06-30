@@ -39,7 +39,21 @@
 .hero__actions {
     display: flex;
     gap: var(--space-3);
-    margin-top: var(--space-3);
+    margin-top: var(--space-1);
+}
+
+.hero__links {
+    display: flex;
+    gap: var(--space-3);
+    margin-top: var(--space-2);
+}
+
+.hero__links a {
+    color: var(--color-text-muted)
+}
+
+.hero__links a :hover {
+    color: var(--color-text)
 }
 
 .btn--ghost {

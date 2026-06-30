@@ -1,3 +1,6 @@
+import { siGithub, siProtonmail } from 'simple-icons';
+import Icon from '../utils/Icons';
+
 import './Hero.css'
 
 function Hero() {
@@ -12,6 +15,10 @@ function Hero() {
             <div class="hero__actions">
                 <button class="btn btn--primary"><a href="/projects">My projects</a></button>
                 <button class="btn btn--ghost"><a href="/about">More about me</a></button>
+            </div>
+            <div class="hero__links">
+                <a href="https://github.com/n0op3"><Icon icon={siGithub} /></a>
+                <a href="mailto:n0op3@proton.me"><Icon icon={siProtonmail} /></a>
             </div>
         </section>
     );

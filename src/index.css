@@ -1,5 +1,5 @@
 :root {
-    /* spacing scale */
+    /* spacing */
     --space-1: 4px;
     --space-2: 8px;
     --space-3: 16px;
@@ -8,7 +8,7 @@
     --space-6: 48px;
     --space-7: 64px;
 
-    /* type scale */
+    /* text size */
     --text-sm: 0.875rem;
     --text-base: 1rem;
     --text-lg: 1.25rem;
@@ -25,9 +25,21 @@
     --color-secondary: #f98354;
     --color-border: #685d5c;
 
+    /* misc */
     --radius: 8px;
     --container-width: 1100px;
     --image-size: 30%;
+    --icon-size: 32px;
+}
+
+img {
+    width: var(--image-size);
+    height: var(--image-size);
+}
+
+svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
 }
 
 body {
