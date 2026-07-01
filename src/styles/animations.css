@@ -1,8 +1,10 @@
 .hero__eyebrow { animation: fade-up 0.4s ease-out 0s both; }
-.hero__avatar { animation: fade-in 0.6s ease-out; }
-.hero__headline { animation: fade-up 0.4s ease-out 0.1s both; }
-.hero__subheadline { animation: fade-up 0.4s ease-out 0.2s both; }
-.hero__actions { animation: fade-up 0.4s ease-out 0.3s both; }
+.hero__avatar { animation: fade-up 0.4s ease-out 0.1s both; }
+.hero__headline { animation: fade-up 0.4s ease-out 0.2s both; }
+.hero__subheadline { animation: fade-up 0.4s ease-out 0.3s both; }
+.hero__actions { animation: fade-up 0.4s ease-out 0.4s both; }
+
+.hero__avatar.loaded { animation: fade-in 1s ease-out; }
 
 @keyframes fade-up {
     from {
