@@ -1,3 +1,4 @@
+/* Hero */
 .hero__eyebrow { animation: fade-up 0.4s ease-out 0s both; }
 .hero__avatar { animation: fade-up 0.4s ease-out 0.1s both; }
 .hero__headline { animation: fade-up 0.4s ease-out 0.2s both; }
