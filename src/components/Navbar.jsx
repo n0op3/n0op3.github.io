@@ -1,19 +1,19 @@
+import { createSignal } from 'solid-js';
+import Dropdown from './Dropdown';
+
 import './Navbar.css'
 
 function ThemeDropdown() {
-    function updateTheme(e) {
-        document.documentElement.setAttribute('data-theme', e.target.value);
-        localStorage.setItem('theme', e.target.value);
+    const [theme, setTheme] = createSignal(localStorage.getItem('theme') ?? 'inferno');
+
+    function updateTheme(t) {
+        setTheme(t);
+        document.documentElement.setAttribute('data-theme', t);
+        localStorage.setItem('theme', t);
     }
 
-    const theme = localStorage.getItem('theme') ?? 'inferno';
-    document.documentElement.setAttribute('data-theme', theme);
-
     return (
-        <select value={theme} onChange={updateTheme}>
-            <option value="inferno">Inferno</option>
-            <option value="tokyo">Tokyo</option>
-        </select>
+        <Dropdown options={['Inferno', 'Tokyo']} selected={theme()} onSelect={updateTheme} />
     );
 }
 
