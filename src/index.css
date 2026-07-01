@@ -32,7 +32,7 @@
     --icon-size: 24px;
 }
 
-:root[data-theme="tokyo"] {
+:root[data-theme="Tokyo"] {
     --color-bg: #142a30;
     --color-primary: #561e96;
     --color-secondary: #1be8da;

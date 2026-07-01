@@ -4,13 +4,14 @@ import Dropdown from './Dropdown';
 import './Navbar.css'
 
 function ThemeDropdown() {
-    const [theme, setTheme] = createSignal(localStorage.getItem('theme') ?? 'inferno');
+    const [theme, setTheme] = createSignal(localStorage.getItem('theme') ?? 'Inferno');
 
     function updateTheme(t) {
         setTheme(t);
         document.documentElement.setAttribute('data-theme', t);
         localStorage.setItem('theme', t);
     }
+    updateTheme(theme())
 
     return (
         <Dropdown options={['Inferno', 'Tokyo']} selected={theme()} onSelect={updateTheme} />

@@ -14,12 +14,10 @@ function Dropdown(props) {
             {open() && (
                 <ul class="dropdown__menu">
                     {props.options.map(opt => (
-                        <li
-                            class="dropdown__item"
-                            onClick={() => { props.onSelect(opt); setOpen(false); }}
-                        >
+                        <a class="dropdown__item"
+                            onClick={() => { props.onSelect(opt); setOpen(false); }}>
                             {opt}
-                        </li>
+                        </a>
                     ))}
                 </ul>
             )}
