@@ -5,7 +5,7 @@ import styles from './Projects.module.css';
 function ProjectCard(project, right) {
     return (
         <a href={project.url} target="_blank" class={`${styles.card} ${right ? 'right' : 'left'}`}>
-            <h3 class="gradient--fg">{project.name}</h3>
+            <h3>{project.name}</h3>
             <p>{project.description}</p>
             <img class="gradient--bg" src={project.preview_url} alt="(missing preview)" />
         </a>

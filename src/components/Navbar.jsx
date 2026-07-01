@@ -16,7 +16,7 @@ function ThemeDropdown() {
     return (
         <div style="display: flex; align-items: center; gap: var(--space-2)">
             <span style="color: var(--color-text-muted); font-size: var(--text-xsm)">Theme</span>
-            < Dropdown options={['Inferno', 'Tokyo']} selected={theme()} onSelect={updateTheme} />
+            < Dropdown options={['Inferno', 'Tokyo', 'Rose']} selected={theme()} onSelect={updateTheme} />
         </div>
     );
 }

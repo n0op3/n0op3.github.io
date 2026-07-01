@@ -40,6 +40,12 @@
     --color-surface: #325660;
 }
 
+:root[data-theme="Rose"] {
+    --color-bg: #281e27;
+    --color-primary: #fc41e3;
+    --color-secondary: #c93861;
+}
+
 /* custom scrollbar */
 
 main {
