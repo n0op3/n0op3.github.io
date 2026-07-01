@@ -3,7 +3,11 @@ import './Navbar.css'
 function ThemeDropdown() {
     function updateTheme(e) {
         document.documentElement.setAttribute('data-theme', e.target.value);
+        localStorage.setItem('theme', e.target.value);
     }
+
+    const theme = localStorage.getItem('theme') ?? 'inferno';
+    document.documentElement.setAttribute('data-theme', theme);
 
     return (
         <select onChange={updateTheme}>
