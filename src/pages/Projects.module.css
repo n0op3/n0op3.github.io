@@ -4,6 +4,7 @@
     grid-template-rows: auto auto;
     gap: var(--space-4);
     margin-top: var(--space-3);
+    margin-bottom: var(--space-3);
 }
 
 .card {

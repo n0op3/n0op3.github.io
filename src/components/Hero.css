@@ -10,6 +10,8 @@
 }
 
 .hero__eyebrow {
+    z-index: -1;
+    position: relative;
     color: var(--color-secondary);
     font-size: var(--text-base);
     font-weight: 600;
@@ -19,6 +21,7 @@
 
 .hero__avatar {
     aspect-ratio: 1/1;
+    background-color: var(--color-bg);
     border-radius: 100%;
     width: var(--image-size);
     height: var(--image-size);
