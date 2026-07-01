@@ -10,7 +10,7 @@ function ThemeDropdown() {
     document.documentElement.setAttribute('data-theme', theme);
 
     return (
-        <select onChange={updateTheme}>
+        <select value={theme} onChange={updateTheme}>
             <option value="inferno">Inferno</option>
             <option value="tokyo">Tokyo</option>
         </select>
