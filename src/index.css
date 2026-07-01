@@ -36,6 +36,7 @@
     --color-bg: #142a30;
     --color-primary: #561e96;
     --color-secondary: #1be8da;
+    --color-surface: #325660;
 }
 
 /* custom scrollbar */
@@ -151,6 +152,7 @@ main {
 
 .btn--ghost {
     font-weight: 400;
+    border: 1px solid var(--color-border);
 }
 
 .btn--ghost:hover {
