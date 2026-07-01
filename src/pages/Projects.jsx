@@ -18,8 +18,7 @@ function Projects() {
     const projects = [
         {
             name: "Solo Leveling TUI",
-            description: "Workout tracking app for termits(terminal hermits). " +
-                "As you can see, frontend is not something I'm great at...",
+            description: "Workout tracking app for termits(terminal hermits).",
             preview_url: "https://placehold.co/1920x1080",
             url: "https://github.com/n0op3/solo-leveling-tui"
         },
