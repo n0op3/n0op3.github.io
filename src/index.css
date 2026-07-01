@@ -32,6 +32,11 @@
     --icon-size: 24px;
 }
 
+:root[data-theme="tokyo"] {
+    --color-bg: #142a30;
+    --color-primary: #561e96;
+    --color-secondary: #1be8da;
+}
 
 /* custom scrollbar */
 
