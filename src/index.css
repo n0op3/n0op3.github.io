@@ -119,6 +119,9 @@ main {
     max-width: var(--container-width);
     margin-inline: auto;
     padding-inline: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn {
