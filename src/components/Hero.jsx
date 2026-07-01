@@ -15,7 +15,7 @@ function Hero() {
                 I'm a self-taught backend software developer with nearly a decade of experience.
             </p>
             <div class="hero__actions">
-                <a href="/projects" class="btn btn--primary">My projects</a>
+                <a href="/projects" class="btn btn--primary"><span style="z-index: 1">My projects</span></a>
                 <a href="/about" class="btn btn--ghost">More about me</a>
             </div>
         </section>

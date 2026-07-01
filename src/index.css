@@ -177,13 +177,24 @@ main::after {
 }
 
 .btn--primary {
-    background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
+    position: relative;
     font-weight: 600;
     color: white;
+    background-image: linear-gradient(to top left, var(--color-primary), var(--color-secondary));
 }
 
-.btn--primary:hover {
+.btn--primary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius);
     background-image: linear-gradient(to bottom right, var(--color-primary), var(--color-secondary));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.btn--primary:hover::before {
+    opacity: 1;
 }
 
 .btn--ghost {
