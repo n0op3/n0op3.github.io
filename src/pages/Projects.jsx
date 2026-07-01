@@ -5,11 +5,9 @@ import styles from './Projects.module.css';
 function ProjectCard(project, right) {
     return (
         <a href={project.url} target="_blank" class={`${styles.card} ${right ? 'right' : 'left'}`}>
-            <div>
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
-                <img src={project.preview_url} alt="(missing preview)" />
-            </div>
+            <h3 class="gradient--fg">{project.name}</h3>
+            <p>{project.description}</p>
+            <img class="gradient--bg" src={project.preview_url} alt="(missing preview)" />
         </a>
     );
 }
@@ -19,13 +17,13 @@ function Projects() {
         {
             name: "Solo Leveling TUI",
             description: "Workout tracking app for termits(terminal hermits).",
-            preview_url: "https://placehold.co/1920x1080",
+            preview_url: "https://placehold.co/1920x1080/black/white",
             url: "https://github.com/n0op3/solo-leveling-tui"
         },
         {
             name: "Better World Presets",
             description: "A Minecraft mod which enables saving and restoring world creation settings.",
-            preview_url: "https://placehold.co/1920x1080",
+            preview_url: "https://placehold.co/1920x1080/black/white",
             url: "https://github.com/n0op3/better-world-presets-fabric"
         }
     ];
