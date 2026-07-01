@@ -8,12 +8,8 @@
 }
 
 .card {
-    border: 2px solid transparent;
-    background-image:
-        linear-gradient(var(--color-bg), var(--color-bg)),
-        linear-gradient(to top right, var(--color-border), var(--color-text-muted));
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
+    border: 2px solid var(--color-border);
+    background-color: var(--color-surface);
     border-image-slice: 1;
     border-radius: var(--radius);
     padding: var(--space-4);
