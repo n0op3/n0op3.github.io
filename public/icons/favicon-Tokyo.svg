@@ -14,37 +14,40 @@
   <g
      id="layer1">
     <rect
-       style="fill:#685d5c;fill-opacity:1;stroke-width:0.259592"
+       style="fill:#142a30;fill-opacity:1;stroke-width:0.259592"
        id="rect1"
        width="35"
        height="105"
        x="0"
        y="1.1657341e-16"
-       ry="12" />
+       ry="9"
+       rx="9" />
     <rect
-       style="fill:#f44430;fill-opacity:1;stroke-width:0.305519"
+       style="fill:#561e96;fill-opacity:1;stroke-width:0.304931"
        id="rect1-6-2"
-       width="42.209"
-       height="120.59798"
-       x="-21.104649"
-       y="13.947217"
-       ry="12.24539"
+       width="42.127705"
+       height="120.3657"
+       x="-21.063852"
+       y="14.063361"
+       ry="11.976888"
        transform="rotate(-45)" />
     <rect
-       style="fill:#db734a;fill-opacity:1;stroke-width:0.259592"
+       style="fill:#1be8da;fill-opacity:1;stroke-width:0.259592"
        id="rect1-6"
        width="35"
        height="105"
        x="70"
        y="0"
-       ry="12" />
+       ry="9"
+       rx="9" />
     <rect
-       style="fill:#f44430;fill-opacity:1;stroke-width:0.253;stroke-dasharray:none"
+       style="fill:#561e96;fill-opacity:1;stroke-width:0.253;stroke-dasharray:none"
        id="rect2"
        x="0"
        y="0"
        width="35"
        height="35"
-       ry="12" />
+       ry="9"
+       rx="9" />
   </g>
 </svg>

@@ -9,6 +9,7 @@ function ThemeDropdown() {
     function updateTheme(t) {
         setTheme(t);
         document.documentElement.setAttribute('data-theme', t);
+        document.querySelector("link[rel='icon']").href = `/icons/favicon-${theme()}.svg`;
         localStorage.setItem('theme', t);
     }
     updateTheme(theme())
