@@ -121,6 +121,32 @@ main {
     overflow-y: auto;
 }
 
+main {
+    position: relative;
+}
+
+main::before,
+main::after {
+    content: '';
+    position: sticky;
+    display: block;
+    height: var(--space-6);
+    z-index: 1;
+    pointer-events: none;
+}
+
+main::before {
+    top: 0;
+    background: linear-gradient(to bottom, var(--color-bg), transparent);
+    margin-bottom: calc(-1 * var(--space-5));
+}
+
+main::after {
+    bottom: 0;
+    background: linear-gradient(to top, var(--color-bg), transparent);
+    margin-top: calc(-1 * var(--space-5));
+}
+
 .container {
     max-width: var(--container-width);
     margin-inline: auto;

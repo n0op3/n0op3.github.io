@@ -25,6 +25,12 @@ function Projects() {
             description: "A Minecraft mod which enables saving and restoring world creation settings.",
             preview_url: "https://placehold.co/1920x1080/black/white",
             url: "https://github.com/n0op3/better-world-presets-fabric"
+        },
+        {
+            name: "This portfolio, haha!",
+            description: "Click here to view the source code!",
+            preview_url: "https://placehold.co/1920x1080/black/white",
+            url: "https://github.com/n0op3/portfolio"
         }
     ];
 
