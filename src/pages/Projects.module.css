@@ -1,3 +1,9 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+}
+
 .card {
     border: 2px solid transparent;
     background-image:
@@ -13,8 +19,6 @@
     justify-content: space-between;
     align-items: center;
     gap: var(--space-4);
-    margin-top: var(--space-4);
-    margin-bottom: var(--space-4);
 }
 
 .card:hover {

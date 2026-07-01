@@ -34,14 +34,14 @@ function Projects() {
     return (
         <div class="container">
             <h1 class="centered">My Projects</h1>
-            <div>
+            <div class={styles.projects}>
                 <For each={projects} fallback={<div>No projects to list! :(</div>}>
                     {(project) => (
                         ProjectCard(project)
                     )}
                 </For>
             </div>
-        </div>
+        </div >
     );
 }
 
