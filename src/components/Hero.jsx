@@ -7,7 +7,7 @@ function Hero() {
     return (
         <section class="hero">
             <p class="hero__eyebrow">こんいちは！</p>
-            <img class={`hero__avatar ${imageLoaded() ? 'loaded' : ''}`}
+            <img class={`hero__avatar ${imageLoaded() ? 'loaded' : 'not-loaded'}`}
                 src="https://avatars.githubusercontent.com/u/167058949"
                 onLoad={() => setImageLoaded(true)} />
             <h1 class="hero__headline">My name is <span class="gradient--fg">n0op3</span></h1>

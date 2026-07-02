@@ -1,13 +1,19 @@
-import { For } from "solid-js";
+import { createSignal, For } from "solid-js";
 
 import styles from './Projects.module.css';
 
 function ProjectCard(project) {
+    const [imageLoaded, setImageLoaded] = createSignal(false);
+
     return (
         <a href={project.url} target="_blank" class={styles.card}>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <img class="gradient--bg" src={project.preview_url} alt="(missing preview)" />
+            <img class={`gradient--bg ${imageLoaded() ? 'loaded' : 'not-loaded'}`}
+                src={project.preview_url}
+                alt="(missing preview)"
+                onLoad={() => setImageLoaded(true)}
+            />
         </a>
     );
 }
