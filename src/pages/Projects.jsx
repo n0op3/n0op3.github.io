@@ -27,9 +27,9 @@ function Projects() {
             url: "https://github.com/n0op3/better-world-presets-fabric"
         },
         {
-            name: "This portfolio, haha!",
+            name: "This portfolio ;)",
             description: "Click here to view the source code!",
-            preview_url: "https://placehold.co/1920x1080/black/white",
+            preview_url: "https://avatars.githubusercontent.com/u/167058949",
             url: "https://github.com/n0op3/portfolio"
         }
     ];
