@@ -1,3 +1,5 @@
+@import url(themes.css);
+
 :root {
     /* spacing */
     --space-1: 4px;
@@ -18,35 +20,14 @@
     --text-3xl: 3rem;
 
     /* color */
-    --color-bg: #2a2b28;
-    --color-surface: #404040;
     --color-text: #e4e4e7;
     --color-text-muted: #a1a1aa;
-    --color-primary: #f44430;
-    --color-secondary: #f98354;
-    --color-border: #685d5c;
 
     /* misc */
     --radius: 8px;
     --container-width: 1100px;
     --image-size: 30%;
     --icon-size: 24px;
-}
-
-:root[data-theme="Tokyo"] {
-    --color-bg: #142a30;
-    --color-primary: #561e96;
-    --color-secondary: #1be8da;
-    --color-surface: #1c343a;
-    --color-border: #304a51;
-}
-
-:root[data-theme="Rose"] {
-    --color-bg: #281e27;
-    --color-primary: #fc41e3;
-    --color-secondary: #c93861;
-    --color-border: #3f2b3d;
-    --color-surface: #382736;
 }
 
 /* custom scrollbar */

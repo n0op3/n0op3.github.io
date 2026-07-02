@@ -1,0 +1,23 @@
+:root[data-theme="Inferno"] {
+    --color-bg: #2a2b28;
+    --color-surface: #404040;
+    --color-primary: #f44430;
+    --color-secondary: #f98354;
+    --color-border: #685d5c;
+}
+
+:root[data-theme="Tokyo"] {
+    --color-bg: #142a30;
+    --color-primary: #561e96;
+    --color-secondary: #1be8da;
+    --color-surface: #1c343a;
+    --color-border: #304a51;
+}
+
+:root[data-theme="Rose"] {
+    --color-bg: #281e27;
+    --color-primary: #fc41e3;
+    --color-secondary: #c93861;
+    --color-surface: #382736;
+    --color-border: #775775;
+}
