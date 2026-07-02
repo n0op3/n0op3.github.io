@@ -2,9 +2,9 @@ import { For } from "solid-js";
 
 import styles from './Projects.module.css';
 
-function ProjectCard(project, right) {
+function ProjectCard(project) {
     return (
-        <a href={project.url} target="_blank" class={`${styles.card} ${right ? 'right' : 'left'}`}>
+        <a href={project.url} target="_blank" class={styles.card}>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <img class="gradient--bg" src={project.preview_url} alt="(missing preview)" />
@@ -40,7 +40,7 @@ function Projects() {
             <div class={styles.projects}>
                 <For each={projects} fallback={<div>No projects to list! :(</div>}>
                     {(project, i) => (
-                        ProjectCard(project, i() % 2 != 0)
+                        ProjectCard(project)
                     )}
                 </For>
             </div>

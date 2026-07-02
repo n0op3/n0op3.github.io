@@ -23,8 +23,8 @@
     aspect-ratio: 1/1;
     background-color: var(--color-bg);
     border-radius: 100%;
-    width: var(--image-size);
-    height: var(--image-size);
+    max-width: var(--image-size);
+    max-height: var(--image-size);
     border: 2px solid var(--color-border);
 }
 
