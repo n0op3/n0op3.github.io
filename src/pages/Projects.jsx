@@ -36,7 +36,7 @@ function Projects() {
             name: "This portfolio ;)",
             description: "Click here to view the source code!",
             preview_url: "https://avatars.githubusercontent.com/u/167058949",
-            url: "https://github.com/n0op3/portfolio"
+            url: "https://github.com/n0op3/n0op3.github.io"
         }
     ];
 
