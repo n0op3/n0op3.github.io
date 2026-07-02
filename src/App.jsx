@@ -1,4 +1,4 @@
-import { HashRouter, Route } from "@solidjs/router";
+import { Router, Route } from "@solidjs/router";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
@@ -10,11 +10,11 @@ function App() {
         <>
             <header><Navbar /></header>
             <main>
-                <HashRouter>
+                <Router>
                     <Route path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects} />
-                </HashRouter>
+                </Router>
             </main>
             <footer><Footer /></footer>
         </>
