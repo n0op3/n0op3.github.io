@@ -1,3 +1,41 @@
+:root {
+    transition: --color-bg 0.5s ease,
+        --color-surface 0.5s ease,
+        --color-primary 0.5s ease,
+        --color-secondary 0.5s ease,
+        --color-border 0.5s ease;
+}
+
+@property --color-bg {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #000000;
+}
+
+@property --color-surface {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #000000;
+}
+
+@property --color-primary {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #000000;
+}
+
+@property --color-secondary {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #000000;
+}
+
+@property --color-border {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #000000;
+}
+
 :root[data-theme="Inferno"] {
     --color-bg: #2a2b28;
     --color-surface: #404040;
