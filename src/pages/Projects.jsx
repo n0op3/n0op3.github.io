@@ -11,7 +11,7 @@ function ProjectCard(project) {
             <p>{project.description}</p>
             <img class={`gradient--bg ${imageLoaded() ? 'loaded' : 'not-loaded'}`}
                 src={project.preview_url}
-                alt="(missing preview)"
+                alt=""
                 onLoad={() => setImageLoaded(true)}
             />
         </a>
