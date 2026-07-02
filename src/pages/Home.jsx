@@ -1,11 +1,7 @@
 import Hero from "../components/Hero";
 
 function Home() {
-    return (
-        <>
-            <main class="container"><Hero /></main>
-        </>
-    );
+    return (<Hero />);
 }
 
 export default Home;

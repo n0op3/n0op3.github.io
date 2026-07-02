@@ -39,7 +39,7 @@ function Projects() {
             <h1 class="centered">My Projects</h1>
             <div class={styles.projects}>
                 <For each={projects} fallback={<div>No projects to list! :(</div>}>
-                    {(project, i) => (
+                    {(project) => (
                         ProjectCard(project)
                     )}
                 </For>
