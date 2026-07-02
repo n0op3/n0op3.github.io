@@ -23,7 +23,6 @@ function Projects() {
         {
             name: "Solo Leveling TUI",
             description: "Workout tracking app for termits (terminal hermits).",
-            preview_url: "https://placehold.co/1920x1080/black/white",
             url: "https://github.com/n0op3/solo-leveling-tui"
         },
         {
