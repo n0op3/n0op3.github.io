@@ -143,6 +143,7 @@ main::after {
     min-height: 100%;
     margin-inline: auto;
     padding-inline: var(--space-4);
+    margin-bottom: var(--space-4);
     display: flex;
     flex-direction: column;
     align-items: center;
