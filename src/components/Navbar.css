@@ -39,6 +39,7 @@
     }
 
     .navbar__links {
+        justify-self: left;
         padding-left: var(--space-3);
         gap: var(--space-4);
     }
