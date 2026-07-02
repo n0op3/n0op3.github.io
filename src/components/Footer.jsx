@@ -7,7 +7,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div class="footer">
-            <a href="https://github.com/n0op3/portfolio/blob/main/LICENSE" target="_blank">
+            <a href="https://github.com/n0op3/n0op3.github.io/blob/main/LICENSE" target="_blank">
                 <div class="footer__license">
                     <ScrollText />
                     Licensed <span class="gradient--fg">MIT</span> 2026
