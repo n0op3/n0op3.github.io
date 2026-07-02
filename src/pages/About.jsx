@@ -48,7 +48,6 @@ function About() {
 
                 <br />
                 <br />
-                <br />
 
                 &emsp;&emsp;Thanks for reading, and have a lovely day~
                 <br />
