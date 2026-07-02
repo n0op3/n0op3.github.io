@@ -38,7 +38,7 @@ function About() {
                 My specialization is backend and infra, but I recently started dabbling some in frontend - my current <i>magnum opus</i> is
                 this very site. I'm sure to work on those skills until I'm capable in this area, too - but my focus stays on working behind
                 the scenes. I'm also interested in cybersecurity - although that remains a side hobby of mine. I recently made a team with
-                a few of my friends, and together we took 16th place out of 35 at a CTF-style hackathon.
+                a few of my friends, and together we took 14th place out of 35 at a CTF-style hackathon.
 
                 <br />
                 <br />
