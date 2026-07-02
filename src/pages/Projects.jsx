@@ -50,6 +50,7 @@ function Projects() {
                     )}
                 </For>
             </div>
+            <i class="and-more" style="color: var(--color-text-muted)">and more to come...</i>
         </div >
     );
 }
