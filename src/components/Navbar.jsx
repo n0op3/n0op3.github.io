@@ -2,6 +2,7 @@ import { createSignal } from 'solid-js';
 import Dropdown from './Dropdown';
 
 import './Navbar.css'
+import { createMediaQuery } from '@solid-primitives/media';
 
 function ThemeDropdown() {
     const [theme, setTheme] = createSignal(localStorage.getItem('theme') ?? 'Inferno');
@@ -23,12 +24,14 @@ function ThemeDropdown() {
 }
 
 function Navbar() {
+    const isMobile = createMediaQuery('(max-width: 640px)');
+
     return (
         <nav class="navbar">
-            <div></div>
+            {isMobile() ? <></> : <div></div>}
             <div class="navbar__links">
                 <a href="/">Home</a>
-                <a href="/about">About Me</a>
+                <a href="/about">{isMobile() ? 'About' : 'About Me'}</a>
                 <a href="/projects">Projects</a>
             </div>
             <div class="navbar__theme-dropdown">

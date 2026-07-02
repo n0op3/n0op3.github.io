@@ -32,3 +32,13 @@
     justify-self: right;
     margin-right: var(--space-3);
 }
+
+@media (max-width: 640px) {
+    .navbar {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navbar__links {
+        padding-left: var(--space-4);
+    }
+}
