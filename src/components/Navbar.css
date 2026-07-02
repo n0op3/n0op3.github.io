@@ -40,5 +40,6 @@
 
     .navbar__links {
         padding-left: var(--space-4);
+        gap: var(--space-4);
     }
 }
